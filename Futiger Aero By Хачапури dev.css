@@ -1,0 +1,219 @@
+/* ========================================================================= */
+/* --- ТЕМА: Futiger Aero (Обновленные стили) --- */
+/* ========================================================================= */
+
+/* ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ */
+:root {
+    --w7-w-space: 6px;
+    --w7-w-bd: #000000b3;
+    --w7-w-bdr: 6px;
+    --w7-w-bg: #4580c4;
+    --w7-w-grad: linear-gradient(to right, #ffffff66, #0000001a, #ffffff33), var(--w7-w-bg);
+    --w7-wct-bd: #0000004d;
+    --w7-wct-bdr: 5px;
+    --w7-wct-sd: inset 0 0 0 1px #fffa;
+    --w7-wct-bg: linear-gradient(#ffffff80, #ffffff4d 45%, #0000001a 50%, #0000001a 75%, #ffffff80);
+    --w7-wct-bg-h: radial-gradient(circle at bottom, #2aceda, transparent 65%), linear-gradient(#b6d9ee 50%, #1a6ca1 50%);
+    --w7-wct-bg-a: radial-gradient(circle at bottom, #0bfdfa, transparent 65%), linear-gradient(#86a7bc 50%, #092747 50%);
+}
+
+/* ГЛАВНАЯ СТРАНИЦА */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Убрали background-color, чтобы был виден фон приложения */
+body {
+    
+    background: url(https://frutiger-aero.org/mainbg-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+}
+
+/* Стили для боковой панели */
+.sidebar {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0); /* Полупрозрачный фон */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px 0;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    box-shadow: 2px 0 15px rgba(0,0,0,0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.sidebar h2 {
+    color: #1a5276;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.categories li {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: #2e3440;
+}
+
+.categories li:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #1a5276;
+}
+
+.categories li.active {
+    background-color: var(--w7-w-bg);
+    color: white;
+    font-weight: bold;
+}
+
+/* Стили для основного контента */
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    color: #2e3440;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Стили для хедера */
+header {
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #1a5276;
+}
+
+.search-bar input {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #2e3440;
+    border: 1px solid #aaa;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    background-color: #81a1c1;
+    color: white;
+    border: 1px solid #6c829e;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Стили для карточек */
+.item {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.item h3 {
+    color: #1a5276;
+}
+
+.tags .tag {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #2e3440;
+}
+
+.item p {
+    color: #2e3440;
+}
+
+.Open {
+    background: linear-gradient(#b6d9ee, #1a6ca1);
+    color: white;
+    border: 1px solid #1a6ca1;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.Open:hover {
+    background: linear-gradient(#b6d9ee, #2284c8);
+}
+
+/* ================== СТРАНИЦА ПРИЛОЖЕНИЙ ================== */
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: #2e3440;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2, h3 {
+    color: #1a5276;
+}
+
+.product-icon {
+    border: 3px solid #5a7d9a;
+}
+
+.categories span {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #2e3440;
+}
+
+.download-button-main {
+    background: linear-gradient(#a3ffac, #27ae60);
+    color: white;
+    border: 1px solid #1c7c44;
+}
+
+.download-button-main:hover {
+    background: linear-gradient(#b3ffb6, #229954);
+}
+
+.product-section {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+.product-section h2 {
+    color: #1a5276;
+}
+
+.screenshot-item {
+    border: 2px solid #5a7d9a;
+}
+
+.addon-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+.addon-info h3 {
+    color: #1a5276;
+}
+
+.addon-item .download-button {
+    background: linear-gradient(#a8d5f3, #3498db);
+    color: white;
+    border: 1px solid #2980b9;
+}
+
+.addon-item .download-button:hover {
+    background: linear-gradient(#b8e5ff, #3498db);
+}
