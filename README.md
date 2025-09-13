@@ -3,6 +3,8 @@
 
 ### [Скачать последнюю версию (последний релиз)](https://github.com/kroshidanielstudio/Xdev_Store/releases/latest)
 
+### [Скачать последнюю версию Хачапури dev Store Theme Creator(последний релиз)](https://github.com/kroshidanielstudio/Xachapyri_dev_Store_Theme_Creator/releases/latest)
+
 <img width="1220" height="612" alt="prev (3)" src="https://github.com/user-attachments/assets/83022d4f-f4cd-4727-bc8e-108fa6e7838e" />
 
 # Devlog
