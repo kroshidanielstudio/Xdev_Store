@@ -1,0 +1,207 @@
+/*
+    ТЕМА ТАКИ
+    СОЗДАТЕЛЬ ТЕМЫ: Хачапури dev
+    GITHUB: https://github.com/kroshidanielstudio/Xdev_Store/tree/CSS-Addons
+*/
+body {
+    background: rgb(255,219,139);
+}
+.sidebar {
+    background: rgb(255,216,0);
+}
+.sidebar button{
+    background: rgb(255,179,0);
+    color: black;
+}
+.sidebar button:hover{
+    background: rgb(248,243,43);
+}
+.sidebar h2 {
+    color: black;
+}
+.categories li {
+    background: rgb(255,179,0);
+    color: black;
+}
+.categories li:hover {
+    background: rgb(247,242,26);
+}
+.categories li.active {
+    background: rgb(250,210,1);
+}
+.main-content {
+    background: rgb(255,204,0);
+}
+header {
+    background: rgb(252,221,118);
+}
+.logo {
+    color: black;
+}
+.search-bar button {
+    background: rgb(255,179,0);
+}
+.search-bar button:hover{
+    background: rgb(248,243,43);
+}
+.category-title{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.item {
+    background: rgb(251,236,93);
+}
+.item h3 {
+    color: black;
+}
+.item-content h4{
+    color: black;
+}
+.item-content p{
+    color: black;
+}
+.tags .tag {
+    background-color: rgb(245,208,51);
+    color: black;
+}
+.item p {
+    color: black;
+}
+.Open {
+    background-color: rgb(255,179,0);
+}
+.Open:hover {
+    background-color: rgb(248,243,43);
+}
+.container {
+    background: rgb(229,190,1);
+}
+
+h1, h2, h3 {
+    color: black;
+}
+.product-header{
+    color: black;
+    border-bottom: 1px solid yellow;
+}
+.product-header p {
+    color: black;
+}
+.product-icon {
+    border: 2px solid yellow;
+}
+.categories span {
+    background-color: rgb(245,208,51);
+    color: black;
+}
+.back-button{
+    background: rgb(255,179,0);
+    border: 2px solid yellow;
+    color: black;
+}
+.back-button:hover{
+    background: rgb(255,215,0);
+}
+.back-button i{
+    color: black;
+}
+.download-button-main {
+    background: rgb(255,179,0);
+    color: black;
+}
+.download-button-main:hover {
+    background: rgb(240,230,140);
+}
+.product-section {
+    background: rgb(255,211,95);
+}
+.product-section p{
+    color: black;
+}
+.product-section h2 {
+    color: black;
+    border-bottom: 1px solid black;
+}
+.widget-container-flex .widget-item{
+    background: rgb(255,236,139);
+    border: 1px solid yellow;
+}
+.widget-container-flex .widget-item h3{
+    color: black;
+}
+.system-req-list li{
+    background: rgb(243,218,11);
+    color: black;
+}
+.system-req-list li strong{
+    color: black;
+}
+.system-req-list li i{
+    color: black;
+}
+.screenshot-item {
+    border: 3px solid yellow;
+}
+.videos-container .video-wrapper{
+    border: 3px solid yellow;
+}
+.addon-item {
+    background: rgb(214,174,1);
+    border: 1px solid yellow;
+}
+.addon-item img {
+    border: 3px solid yellow;
+}
+.addon-info h3 {
+    color: black;
+}
+.addon-item .download-button {
+    background: rgb(255,179,0);
+    color: black;
+}
+.addon-item .download-button:hover {
+    background: rgb(240,230,140);
+}
+::-webkit-scrollbar-track{
+    background: rgb(248,213,104);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(214,174,1);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(255,255,153);
+}
+.container {
+    border: 2px solid yellow;
+}
+h1 {
+    border-bottom: 2px solid yellow;
+}
+.info-item {
+    color: black;
+}
+.info-label {
+    color: black;
+}
+.libraries-title {
+    color: black;
+}
+.library-item {
+    color: black;
+}
+li {
+    color: black;
+}
+.no-changes {
+    color: black;
+}
+.docs-section p{
+    color: black;
+}
+.docs-section li{
+    color: black;
+}
+.docs-section code{
+    color: black;
+    background: rgb(255,179,0);
+}
